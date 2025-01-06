@@ -11,5 +11,6 @@ public class RestConfiguration implements RepositoryRestConfigurer {
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
         config.setBasePath("/api");
+        config.setDefaultPageSize(5);
     }
 }
