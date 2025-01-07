@@ -1,4 +1,4 @@
-package com.ghaza.tech.employees_directory;
+package com.ghaza.tech.employees_directory.rest;
 
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
